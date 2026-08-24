@@ -190,6 +190,43 @@ h1 {
   text-decoration: none;
 }
 
+.other-publications { padding-top: 38px; }
+.other-publications > h3 {
+  margin: 0;
+  padding-bottom: 9px;
+  border-bottom: 1px solid var(--line);
+  font-size: 19px;
+}
+.other-publication {
+  display: grid;
+  grid-template-columns: 62px minmax(0, 1fr);
+  gap: 22px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--line);
+}
+.other-pub-year {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+.other-publication h4 {
+  margin: 0 0 5px;
+  font-size: 16px;
+  line-height: 1.45;
+}
+.other-publication h4 a { color: var(--ink); }
+.other-pub-authors,
+.other-pub-venue {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+}
+.other-pub-authors { color: var(--muted); }
+.other-pub-venue { margin-top: 3px; }
+
 .timeline-item {
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);
@@ -239,6 +276,7 @@ footer p { margin: 0; }
   .publication { grid-template-columns: 1fr; gap: 18px; }
   .pub-image-link { max-width: 420px; }
   .pub-image { height: auto; max-height: 230px; }
+  .other-publication { grid-template-columns: 1fr; gap: 4px; }
   .timeline-item { grid-template-columns: 1fr; gap: 8px; }
   .skills { grid-template-columns: 1fr; gap: 3px; }
   .skills dd { margin-bottom: 12px; }
