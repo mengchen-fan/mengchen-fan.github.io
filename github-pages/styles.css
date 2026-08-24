@@ -153,8 +153,16 @@ h1 {
   object-fit: contain;
   background: #fff;
 }
+.pub-year {
+  margin: -4px 0 5px;
+  color: var(--muted);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .04em;
+}
 .publication h3 {
-  margin: -5px 0 8px;
+  margin: 0 0 8px;
   font-size: 18px;
   line-height: 1.45;
 }
