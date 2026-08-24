@@ -159,10 +159,9 @@ h1 {
   line-height: 1.45;
 }
 .publication h3 a { color: var(--ink); }
-.authors, .venue, .pub-note, .pub-highlight { margin: 0; font-size: 14px; }
+.authors, .venue, .pub-highlight { margin: 0; font-size: 14px; }
 .authors { color: var(--muted); }
 .venue { margin-top: 4px; color: var(--blue); }
-.pub-note { margin-top: 3px; color: var(--muted); font-size: 12px; }
 .pub-highlight { margin-top: 7px; font-weight: 700; }
 .pub-links {
   display: flex;
