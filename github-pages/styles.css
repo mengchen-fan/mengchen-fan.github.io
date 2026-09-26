@@ -181,6 +181,7 @@ h1 {
 .authors { color: var(--muted); }
 .venue { margin-top: 4px; color: var(--blue); }
 .pub-highlight { margin-top: 7px; font-weight: 700; }
+.pub-summary { margin: 10px 0 0; color: var(--muted); font-size: 14px; }
 .pub-links {
   display: flex;
   flex-wrap: wrap;
